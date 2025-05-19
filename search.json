@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "modulo_intro_est.html",
+    "href": "modulo_intro_est.html",
+    "title": "Módulo 1: Introducción a la Estadística",
+    "section": "",
+    "text": "Comprender el papel de la estadística en las ciencias aplicadas.\nDiferenciar tipos de datos y escalas de medición.\nIdentificar elementos de un estudio estadístico."
+  },
+  {
+    "objectID": "modulo_intro_est.html#objetivos-del-módulo",
+    "href": "modulo_intro_est.html#objetivos-del-módulo",
+    "title": "Módulo 1: Introducción a la Estadística",
+    "section": "",
+    "text": "Comprender el papel de la estadística en las ciencias aplicadas.\nDiferenciar tipos de datos y escalas de medición.\nIdentificar elementos de un estudio estadístico."
+  },
+  {
+    "objectID": "modulo_intro_est.html#contenido-teórico",
+    "href": "modulo_intro_est.html#contenido-teórico",
+    "title": "Módulo 1: Introducción a la Estadística",
+    "section": "📚 Contenido Teórico",
+    "text": "📚 Contenido Teórico\nLa estadística es una disciplina que se encarga de la recopilación, análisis e interpretación de datos…"
+  },
+  {
+    "objectID": "modulo_intro_est.html#explicación-del-código",
+    "href": "modulo_intro_est.html#explicación-del-código",
+    "title": "Módulo 1: Introducción a la Estadística",
+    "section": "🖥️ Explicación del Código",
+    "text": "🖥️ Explicación del Código\nLa explicación de este módulo se encuentra disponible en el siguiente video de Youtube Introducción a la Bioestadística Fundamental."
+  },
+  {
+    "objectID": "modulo_intro_est.html#código-en-r",
+    "href": "modulo_intro_est.html#código-en-r",
+    "title": "Módulo 1: Introducción a la Estadística",
+    "section": "🔢 Código en R",
+    "text": "🔢 Código en R\n📄 Descargar datos de salud\n\n# Cargar datos de ejemplo\nsummary(mtcars)\n\n      mpg             cyl             disp             hp       \n Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  \n 1st Qu.:15.43   1st Qu.:4.000   1st Qu.:120.8   1st Qu.: 96.5  \n Median :19.20   Median :6.000   Median :196.3   Median :123.0  \n Mean   :20.09   Mean   :6.188   Mean   :230.7   Mean   :146.7  \n 3rd Qu.:22.80   3rd Qu.:8.000   3rd Qu.:326.0   3rd Qu.:180.0  \n Max.   :33.90   Max.   :8.000   Max.   :472.0   Max.   :335.0  \n      drat             wt             qsec             vs        \n Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0.0000  \n 1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0.0000  \n Median :3.695   Median :3.325   Median :17.71   Median :0.0000  \n Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0.4375  \n 3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1.0000  \n Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1.0000  \n       am              gear            carb      \n Min.   :0.0000   Min.   :3.000   Min.   :1.000  \n 1st Qu.:0.0000   1st Qu.:3.000   1st Qu.:2.000  \n Median :0.0000   Median :4.000   Median :2.000  \n Mean   :0.4062   Mean   :3.688   Mean   :2.812  \n 3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  \n Max.   :1.0000   Max.   :5.000   Max.   :8.000"
+  },
+  {
+    "objectID": "casos.html",
+    "href": "casos.html",
+    "title": "Casos de Estudio",
+    "section": "",
+    "text": "Aquí encontrarás bases de datos reales y problemas contextualizados para aplicar los conceptos aprendidos en el curso.\n\n# Gráfico básico\nplot(mpg ~ wt, data = mtcars)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Applied Biostatistics Using RStudio",
+    "section": "",
+    "text": "Repositorio del proyecto de Bioestadística Aplicada en RStudio con el material reproducible que se explica en los videos del canal de YouTube Jose Leon Stats y que también se encuentra en el repositorio de GitHub jmlionc.\n\nEste programa va dirigido a estudiantes de diversas áreas del conocimiento que estén interesados en la aplicación de conceptos estadísticos a través del software RStudio. Se abordaran temáticas propias de los cursos Bioestadística y Estadística Fundamental que conforman la oferta académica del Departamento de Estadística en el nivel de pregrado de la Facultad de Ciencias de la Universidad Nacional de Colombia.\nEn la sección Casos de Estudio encontrará las bases de datos a trabajar y la contextualización de los problemas propuestos.\nEl programa esta compuesto de las siguientes temáticas:\n\nIntroducción a la Estadística\nIntroducción a Rstudio\nImportación, Limpieza y Manipulación de Bases de Datos\nEstadística Descriptiva y Exploratoria\nProbabilidad\nInferencia Estadística\nDiseño Experimental\nAnálisis de Regresión\nAnálisis de Datos Temporales y Espaciales\nVisualización de Datos y Storytelling\nGeneración y Presentación de Reportes"
+  },
+  {
+    "objectID": "temario.html",
+    "href": "temario.html",
+    "title": "Temario",
+    "section": "",
+    "text": "A continuación se presentan los módulos que conforman el curso Bioestadística Aplicada en RStudio. Cada uno incluirá código reproducible, ejemplos y material descargable.\n\nMódulos\n\nIntroducción a la Estadística\nIntroducción a RStudio\nImportación, Limpieza y Manipulación de Datos\nEstadística Descriptiva y Exploratoria\nProbabilidad\nInferencia Estadística\nDiseño Experimental\nAnálisis de Regresión\nAnálisis de Datos Temporales y Espaciales\nVisualización de Datos y Storytelling\nGeneración y Presentación de Reportes"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Si tienes preguntas, sugerencias o deseas proponer un caso de estudio, puedes escribirme a:\n📧 joleonp@unal.edu.co\nOtros canales de comunicación:\n🔗 GitHub\n🔗 YouTube\n🔗 LinkedIn"
+  },
+  {
+    "objectID": "recursos.html",
+    "href": "recursos.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "En esta sección encontrarás enlaces útiles y recursos complementarios para el curso.\n\n📘 Bibliografía\n\nBiostatistics for the Biological and Health Sciences - Triola\nThe Art of R Programming - Matloff\nDocumentación oficial de R\n\n\n\n📂 Bases de Datos\n\nDatasets de ejemplo en R\nUCI Machine Learning Repository\n\n\n\n💻 Software\n\nR Project\nRStudio IDE\nQuarto"
+  }
+]
