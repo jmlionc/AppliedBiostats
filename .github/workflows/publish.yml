@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -29,8 +29,9 @@ jobs:
             any::tidyverse
           cache-version: 1
 
-       - name: Install R Dependencies
+      - name: Install R Dependencies
         run: |
+          options(repos = c(CRAN = "https://cloud.r-project.org"))
           install.packages(c(
             'rmarkdown', 
             'knitr', 
@@ -44,14 +45,14 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-         with:
+        with:
           version: "latest"
 
       - name: Render Quarto Website
         uses: quarto-dev/quarto-actions/render@v2
-        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site 
+          publish_dir: _site
