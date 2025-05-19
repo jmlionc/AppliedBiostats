@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "AppliedBiostats by Jose Leon"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: temario.qmd
+        text: Temario
+      - href: casos.qmd
+        text: Casos de Estudio
+      - href: recursos.qmd
+        text: Recursos
+      - href: contacto.qmd
+        text: Contacto
+      - about.qmd
+  favicon: "img/profile_pic (2).png"
+      
+page-footer:
+    left: "© 2025 Jose Leon"
+    right: "Hecho con [Quarto](https://quarto.org)"
+    background: light
+    
+format:
+  html:
+    theme:
+      - cosmo
+    toc: true
+    css: styles.css
+    
+
+editor: visual
+

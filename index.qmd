@@ -1,0 +1,33 @@
+---
+title: "Applied Biostatistics Using RStudio"
+---
+
+Repositorio del proyecto de Bioestadística Aplicada en RStudio con el material reproducible que se explica en los videos del canal de YouTube [Jose Leon Stats](https://www.youtube.com/@jmlionc) y que también se encuentra en el repositorio de GitHub [jmlionc](https://github.com/jmlionc).\
+\
+Este programa va dirigido a estudiantes de diversas áreas del conocimiento que estén interesados en la aplicación de conceptos estadísticos a través del software RStudio. Se abordaran temáticas propias de los cursos Bioestadística y Estadística Fundamental que conforman la oferta académica del Departamento de Estadística en el nivel de pregrado de la Facultad de Ciencias de la Universidad Nacional de Colombia.
+
+En la sección Casos de Estudio encontrará las bases de datos a trabajar y la contextualización de los problemas propuestos.
+
+El programa esta compuesto de las siguientes temáticas:
+
+-   Introducción a la Estadística
+
+-   Introducción a Rstudio
+
+-   Importación, Limpieza y Manipulación de Bases de Datos
+
+-   Estadística Descriptiva y Exploratoria
+
+-   Probabilidad
+
+-   Inferencia Estadística
+
+-   Diseño Experimental
+
+-   Análisis de Regresión
+
+-   Análisis de Datos Temporales y Espaciales
+
+-   Visualización de Datos y Storytelling
+
+-   Generación y Presentación de Reportes

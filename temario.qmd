@@ -1,0 +1,19 @@
+---
+title: "Temario"
+---
+
+A continuación se presentan los módulos que conforman el curso **Bioestadística Aplicada en RStudio**. Cada uno incluirá código reproducible, ejemplos y material descargable.
+
+### Módulos
+
+1.  [Introducción a la Estadística](modulo_intro_est.qmd)
+2.  [Introducción a RStudio](modulo_intro_r.qmd)
+3.  [Importación, Limpieza y Manipulación de Datos](modulo_bases.qmd)
+4.  [Estadística Descriptiva y Exploratoria](modulo_descrip.qmd)
+5.  [Probabilidad](modulo_proba.qmd)
+6.  [Inferencia Estadística](modulo_infer.qmd)
+7.  [Diseño Experimental](modulo_dis_exp.qmd)
+8.  [Análisis de Regresión](modulo_regre.qmd)
+9.  [Análisis de Datos Temporales y Espaciales](modulo_time_space.qmd)
+10. [Visualización de Datos y Storytelling](modulo_plots.qmd)
+11. [Generación y Presentación de Reportes](modulo_docs.qmd)

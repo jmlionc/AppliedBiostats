@@ -1,0 +1,26 @@
+---
+title: "Módulo 1: Introducción a la Estadística"
+---
+
+## 🎯 Objetivos del Módulo
+
+-   Comprender el papel de la estadística en las ciencias aplicadas.
+-   Diferenciar tipos de datos y escalas de medición.
+-   Identificar elementos de un estudio estadístico.
+
+## 📚 Contenido Teórico
+
+La estadística es una disciplina que se encarga de la recopilación, análisis e interpretación de datos...
+
+## 🖥️ Explicación del Código
+
+La explicación de este módulo se encuentra disponible en el siguiente video de Youtube [Introducción a la Bioestadística Fundamental](https://www.youtube.com/@jmlionc).
+
+## 🔢 Código en R
+
+📄 [Descargar datos de salud](datos/datos_salud.csv)
+
+```{r}
+# Cargar datos de ejemplo
+summary(mtcars)
+```

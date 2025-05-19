@@ -1,0 +1,53 @@
+{
+  "index.qmd": {
+    "index.html": "c6980670"
+  },
+  "about.qmd": {
+    "about.html": "7ea12b20"
+  },
+  "casos.qmd": {
+    "casos.html": "1084bf65"
+  },
+  "contacto.qmd": {
+    "contacto.html": "6b7db852"
+  },
+  "recursos.qmd": {
+    "recursos.html": "b9aafba8"
+  },
+  "temario.qmd": {
+    "temario.html": "68eea591"
+  },
+  "modulo_bases.qmd": {
+    "modulo_bases.html": "8dec4b25"
+  },
+  "modulo_descrip.qmd": {
+    "modulo_descrip.html": "47004e1e"
+  },
+  "modulo_dis_exp.qmd": {
+    "modulo_dis_exp.html": "227ae34a"
+  },
+  "modulo_docs.qmd": {
+    "modulo_docs.html": "efd32297"
+  },
+  "modulo_infer.qmd": {
+    "modulo_infer.html": "ccded7f0"
+  },
+  "modulo_intro_est.qmd": {
+    "modulo_intro_est.html": "e8a35cc8"
+  },
+  "modulo_intro_r.qmd": {
+    "modulo_intro_r.html": "f9139603"
+  },
+  "modulo_plots.qmd": {
+    "modulo_plots.html": "0a3d9029"
+  },
+  "modulo_proba.qmd": {
+    "modulo_proba.html": "cbde7810"
+  },
+  "modulo_regre.qmd": {
+    "modulo_regre.html": "91408da2"
+  },
+  "modulo_time_space.qmd": {
+    "modulo_time_space.html": "f9bc70d8"
+  }
+}

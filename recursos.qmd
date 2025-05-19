@@ -1,0 +1,22 @@
+---
+title: "Recursos"
+---
+
+En esta sección encontrarás enlaces útiles y recursos complementarios para el curso.
+
+### 📘 Bibliografía
+
+-   *Biostatistics for the Biological and Health Sciences* - Triola
+-   *The Art of R Programming* - Matloff
+-   Documentación oficial de [R](https://cran.r-project.org/manuals.html)
+
+### 📂 Bases de Datos
+
+-   [Datasets de ejemplo en R](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html)
+-   [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+
+### 💻 Software
+
+-   [R Project](https://cran.r-project.org/)
+-   [RStudio IDE](https://www.rstudio.com/products/rstudio/download/)
+-   [Quarto](https://quarto.org)

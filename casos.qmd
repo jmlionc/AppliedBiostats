@@ -1,0 +1,10 @@
+---
+title: "Casos de Estudio"
+---
+
+Aquí encontrarás bases de datos reales y problemas contextualizados para aplicar los conceptos aprendidos en el curso.
+
+```{r}
+# Gráfico básico
+plot(mpg ~ wt, data = mtcars)
+```
