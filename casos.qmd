@@ -4,7 +4,51 @@ title: "Casos de Estudio"
 
 Aquí encontrarás bases de datos reales y problemas contextualizados para aplicar los conceptos aprendidos en el curso.
 
-```{r}
-# Gráfico básico
-plot(mpg ~ wt, data = mtcars)
-```
+Caso 1 : "Riesgos asociados al uso de pesticidas en cultivos: Análisis ambiental, epidemiológico y genético"
+
+Bases de Datos propuestas:
+
+Base 1: Datos ambientales de pesticidas en suelos (Ecología/Agronomía)
+
+Este conjunto de datos ofrece estimaciones anuales a nivel estatal sobre el uso de pesticidas para los principales cultivos o grupos de cultivos en los estados contiguos de Estados Unidos, abarcando el periodo comprendido entre 1992 y 2019. Su objetivo principal es mejorar la comprensión acerca de en qué cultivos específicos se aplican estos compuestos químicos.
+
+Fuente: U.S. Geological Survey
+
+Año: 1992 - 2019
+
+Fecha de Publicación: 24 de septiembre del 2021
+
+Link: [USGS Science Data Catalog (SDC)](https://www.sciencebase.gov/catalog/item/6081ae7cd34e8564d6866222)
+
+[Descargar base de datos 1](datos/datos_salud1.csv)
+
+
+Base 2: Datos epidemiológicos de salud en poblaciones cercanas (Epidemiología)
+
+La Encuesta Nacional de Examen de Salud y Nutrición (NHANES, por sus siglas en inglés) recopila datos sobre la salud y la nutrición de adultos y niños en los Estados Unidos. A través de entrevistas sobre la dieta, análisis de sangre, exámenes de salud y pruebas de laboratorio, la NHANES mide el estado nutricional de la población. Conducida por el Centro Nacional de Estadísticas de Salud (NCHS) de los CDC, es la única encuesta nacional que combina estos métodos para participantes de todas las edades. Anualmente, alrededor de 5,000 personas son seleccionadas mediante un proceso científico aleatorio para asegurar que los resultados representen con precisión la salud y el estado nutricional de toda la diversa nación estadounidense.
+
+Fuente: National Health and Nutrition Examination Survey
+
+Año: 1999 - 2023
+
+Fecha de Publicación: agosto del 2023
+
+Link: [NHANES August 2021-August 2023](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023)
+
+[Descargar base de datos 2](datos/datos_salud2.csv)
+
+
+Base 3: Datos genómicos de resistencia a pesticidas en insectos (Genética)
+
+Esta base de datos recopila informes de casos de resistencia desde 1914 hasta la actualidad, en el momento y lugar donde se detectó por primera vez. La resistencia a plaguicidas es un fenómeno evolutivo y dinámico, por lo que la presencia de un registro no garantiza que aplique a tu zona. De igual forma, la ausencia de un registro no implica que no exista resistencia. Se publica esta información en internet como un servicio público, con el objetivo de apoyar a los profesionales en el manejo de la resistencia a nivel mundial. Cuenta con el apoyo de las siguientes organizaciones: USDA, CSREES, IRAC, GREEN, MAES, MSUE y MDA.
+
+Fuente: Arthropod Pesticide Resistance Database
+
+Año: 1914 - 2025
+
+Fecha de Publicación: mayo 2025
+
+Link: [APRD Michigan State University](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023)
+
+[Descargar base de datos 3](datos/datos_salud2.csv)
+
