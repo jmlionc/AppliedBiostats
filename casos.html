@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -186,17 +151,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Aquí encontrarás bases de datos reales y problemas contextualizados para aplicar los conceptos aprendidos en el curso.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico básico</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mpg <span class="sc">~</span> wt, <span class="at">data =</span> mtcars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="casos_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<p>Caso 1 : “Riesgos asociados al uso de pesticidas en cultivos: Análisis ambiental, epidemiológico y genético”</p>
+<p>Bases de Datos propuestas:</p>
+<p>Base 1: Datos ambientales de pesticidas en suelos (Ecología/Agronomía)</p>
+<p>Este conjunto de datos ofrece estimaciones anuales a nivel estatal sobre el uso de pesticidas para los principales cultivos o grupos de cultivos en los estados contiguos de Estados Unidos, abarcando el periodo comprendido entre 1992 y 2019. Su objetivo principal es mejorar la comprensión acerca de en qué cultivos específicos se aplican estos compuestos químicos.</p>
+<p>Fuente: U.S. Geological Survey</p>
+<p>Año: 1992 - 2019</p>
+<p>Fecha de Publicación: 24 de septiembre del 2021</p>
+<p>Link: <a href="https://www.sciencebase.gov/catalog/item/6081ae7cd34e8564d6866222">USGS Science Data Catalog (SDC)</a></p>
+<p><a href="datos/datos_salud1.csv">Descargar base de datos 1</a></p>
+<p>Base 2: Datos epidemiológicos de salud en poblaciones cercanas (Epidemiología)</p>
+<p>La Encuesta Nacional de Examen de Salud y Nutrición (NHANES, por sus siglas en inglés) recopila datos sobre la salud y la nutrición de adultos y niños en los Estados Unidos. A través de entrevistas sobre la dieta, análisis de sangre, exámenes de salud y pruebas de laboratorio, la NHANES mide el estado nutricional de la población. Conducida por el Centro Nacional de Estadísticas de Salud (NCHS) de los CDC, es la única encuesta nacional que combina estos métodos para participantes de todas las edades. Anualmente, alrededor de 5,000 personas son seleccionadas mediante un proceso científico aleatorio para asegurar que los resultados representen con precisión la salud y el estado nutricional de toda la diversa nación estadounidense.</p>
+<p>Fuente: National Health and Nutrition Examination Survey</p>
+<p>Año: 1999 - 2023</p>
+<p>Fecha de Publicación: agosto del 2023</p>
+<p>Link: <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023">NHANES August 2021-August 2023</a></p>
+<p><a href="datos/datos_salud2.csv">Descargar base de datos 2</a></p>
+<p>Base 3: Datos genómicos de resistencia a pesticidas en insectos (Genética)</p>
+<p>Esta base de datos recopila informes de casos de resistencia desde 1914 hasta la actualidad, en el momento y lugar donde se detectó por primera vez. La resistencia a plaguicidas es un fenómeno evolutivo y dinámico, por lo que la presencia de un registro no garantiza que aplique a tu zona. De igual forma, la ausencia de un registro no implica que no exista resistencia. Se publica esta información en internet como un servicio público, con el objetivo de apoyar a los profesionales en el manejo de la resistencia a nivel mundial. Cuenta con el apoyo de las siguientes organizaciones: USDA, CSREES, IRAC, GREEN, MAES, MSUE y MDA.</p>
+<p>Fuente: Arthropod Pesticide Resistance Database</p>
+<p>Año: 1914 - 2025</p>
+<p>Fecha de Publicación: mayo 2025</p>
+<p>Link: <a href="https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023">APRD Michigan State University</a></p>
+<p><a href="datos/datos_salud2.csv">Descargar base de datos 3</a></p>
 
 
 
